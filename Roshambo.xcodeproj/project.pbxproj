@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		181994331E9A106500EACB14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181994321E9A106500EACB14 /* AppDelegate.swift */; };
-		181994351E9A106500EACB14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181994341E9A106500EACB14 /* ViewController.swift */; };
+		181994351E9A106500EACB14 /* SelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181994341E9A106500EACB14 /* SelectViewController.swift */; };
 		181994381E9A106500EACB14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181994361E9A106500EACB14 /* Main.storyboard */; };
 		1819943A1E9A106500EACB14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181994391E9A106500EACB14 /* Assets.xcassets */; };
 		1819943D1E9A106500EACB14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1819943B1E9A106500EACB14 /* LaunchScreen.storyboard */; };
+		181994451E9A157D00EACB14 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181994441E9A157D00EACB14 /* ResultViewController.swift */; };
+		18A1DFEC1E9AD7C700721CEA /* PlayOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A1DFEB1E9AD7C700721CEA /* PlayOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1819942F1E9A106400EACB14 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181994321E9A106500EACB14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		181994341E9A106500EACB14 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		181994341E9A106500EACB14 /* SelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectViewController.swift; sourceTree = "<group>"; };
 		181994371E9A106500EACB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181994391E9A106500EACB14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1819943C1E9A106500EACB14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1819943E1E9A106500EACB14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181994441E9A157D00EACB14 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		18A1DFEB1E9AD7C700721CEA /* PlayOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				181994321E9A106500EACB14 /* AppDelegate.swift */,
-				181994341E9A106500EACB14 /* ViewController.swift */,
+				181994341E9A106500EACB14 /* SelectViewController.swift */,
+				181994441E9A157D00EACB14 /* ResultViewController.swift */,
 				181994361E9A106500EACB14 /* Main.storyboard */,
 				181994391E9A106500EACB14 /* Assets.xcassets */,
 				1819943B1E9A106500EACB14 /* LaunchScreen.storyboard */,
 				1819943E1E9A106500EACB14 /* Info.plist */,
+				18A1DFEB1E9AD7C700721CEA /* PlayOption.swift */,
 			);
 			path = Roshambo;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181994351E9A106500EACB14 /* ViewController.swift in Sources */,
+				181994351E9A106500EACB14 /* SelectViewController.swift in Sources */,
 				181994331E9A106500EACB14 /* AppDelegate.swift in Sources */,
+				18A1DFEC1E9AD7C700721CEA /* PlayOption.swift in Sources */,
+				181994451E9A157D00EACB14 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				181994431E9A106500EACB14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
